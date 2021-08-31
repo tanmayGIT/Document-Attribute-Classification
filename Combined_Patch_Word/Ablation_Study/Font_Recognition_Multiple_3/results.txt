@@ -1,0 +1,43 @@
+
+::::::::::::::::::  The Results when we are usig "sampler=torch.utils.data.SubsetRandomSampler" in the code ::::::::::::::::::::::::::
+
+
+Epoch 87/89
+----------
+train total loss: 3.4047 scanning loss: 0.6008 font size loss: 0.8036 font type loss: 1.1409  font emphasis loss 0.8594
+train mean_loss of all the batches: 3.4069
+train scanning_Acc: 0.9486  font size_acc: 0.7374  font type_acc: 0.9011font emphasis_acc: 0.8821
+The epoch_loss is : 3.404675273344852
+The current best accuracy is :  3.2726475162413515
+val total loss: 3.4176 scanning loss: 0.7919 font size loss: 0.9975 font type loss: 1.5603  font emphasis loss 1.1678
+val mean_loss of all the batches: 3.4343
+val scanning_Acc: 0.7446  font size_acc: 0.5125  font type_acc: 0.4644font emphasis_acc: 0.5541
+The epoch_loss is : 3.4176390263640766
+The current best accuracy is :  3.2726475162413515
+
+Epoch 88/89
+----------
+train total loss: 3.4079 scanning loss: 0.6026 font size loss: 0.8043 font type loss: 1.1409  font emphasis loss 0.8601
+train mean_loss of all the batches: 3.4102
+train scanning_Acc: 0.9467  font size_acc: 0.7376  font type_acc: 0.9014font emphasis_acc: 0.8812
+The epoch_loss is : 3.407930520100925
+The current best accuracy is :  3.2726475162413515
+val total loss: 3.3742 scanning loss: 0.7395 font size loss: 1.0042 font type loss: 1.5905  font emphasis loss 1.1923
+val mean_loss of all the batches: 3.3906
+val scanning_Acc: 0.7960  font size_acc: 0.5085  font type_acc: 0.4339font emphasis_acc: 0.5299
+The epoch_loss is : 3.3741647062949762
+The current best accuracy is :  3.2726475162413515
+
+Epoch 89/89
+----------
+train total loss: 3.4078 scanning loss: 0.6011 font size loss: 0.8049 font type loss: 1.1408  font emphasis loss 0.8609
+train mean_loss of all the batches: 3.4100
+train scanning_Acc: 0.9484  font size_acc: 0.7362  font type_acc: 0.9021font emphasis_acc: 0.8803
+The epoch_loss is : 3.4077559920102756
+The current best accuracy is :  3.2726475162413515
+val total loss: 3.4255 scanning loss: 0.7489 font size loss: 1.0062 font type loss: 1.5881  font emphasis loss 1.1545
+val mean_loss of all the batches: 3.4422
+val scanning_Acc: 0.7863  font size_acc: 0.5036  font type_acc: 0.4354font emphasis_acc: 0.5670
+The epoch_loss is : 3.4254555968404974
+The current best accuracy is :  3.2726475162413515
+
