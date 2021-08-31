@@ -427,3 +427,73 @@ The following code is to test MTL+MI network and Weighted MTL+MI network. We hav
 * Import the correct network model in line 9
 * Change the line 52 according to the correct model
 * That's all ! 
+
+
+
+<br/>
+<br/>
+
+## Some more Ablation Study
+Furthermore, we did some more Ablation study/experiments also. These studies are mentioend below :
+
+<br/>
+
+###  **MTL Word: Word Level with multiple FC layers (on small dataset)** :
+
+Here, we are checking whether the creation of dataloader is correct or not. To do this, we perform one kind of cross verification. We use the same dataloader creation code which was written to read the word and patch images together. This dataloader code was used in **MTL + MI** based network. But here, during the training, we are using only the "word" images. We want to see whether it is giving the same results like when we use the dataloader code to read either word or patch images only (not the both). 
+
+Please note that this network architecture can only accept/take single image as the input (it can't take two input)
+
+* See the file for training :  Multi_Tasks/Small_Dataset_Word_Level/Ablation_Study/Font_Recognition_Multiple_Test_1/**train_network_patch.py**
+
+* Have a look at the code: Multi_Tasks/Small_Dataset_Word_Level/Ablation_Study/Font_Recognition_Multiple_Test_1/ **"word_image_datasets.py"** and see how the dataloader is written.
+
+* Have a look at the code: Multi_Tasks/Small_Dataset_Word_Level/Ablation_Study/Font_Recognition_Multiple_Test_1/**"trainer.py"** and see that we are using only "inputs_2" in line 121 i.e. we are giving only word as input
+
+<br/>
+
+
+###  **MTL Patch: Patch Level with multiple FC layers (on small dataset)** :
+
+In the simillar way, we only experiment with patch images here
+
+* See the file for training :  Multi_Tasks/Small_Dataset_Patch_Level/Ablation_Study/Font_Recognition_Multiple_Test_2/**train_network_patch.py**
+
+* Have a look at the code: Multi_Tasks/Small_Dataset_Patch_Level/Ablation_Study/Font_Recognition_Multiple_Test_2/ **"word_image_datasets.py"** and see how the dataloader is written.
+
+* Have a look at the code: Multi_Tasks/Small_Dataset_Patch_Level/Ablation_Study/Font_Recognition_Multiple_Test_2/**"trainer.py"** and see that we are using only "inputs_2" in line 121 i.e. we are giving only patch as input
+
+<br/>
+
+###  **MTL+MI : Late concat multiple FC layers (on small dataset)** :
+The objective of this experiment was mainly to verify the cause of network overfitting. As we are using word and patch images together in this network. So, here we try to understand among word and patch images, which one is main culprit for overfitting i.e. either word or patch images
+
+
+**Giving same word images as both the input to the network**
+
+* See the file for training :  Combined_Patch_Word/Ablation_Study/Font_Recognition_Multiple_1/**train_network_concat_equal.py**
+
+* Have a look at the code: Combined_Patch_Word/Ablation_Study/Font_Recognition_Multiple_1/ **"multi_image_data_loader_new.py"** and see how the dataloader is written.
+
+* Have a look at the code: Combined_Patch_Word/Ablation_Study/Font_Recognition_Multiple_1/**"trainer.py"** and see that we are using only "inputs_1" in line 134 i.e. we are giving only word image as both the inputs
+
+
+**Giving same patch images as both the input to the network**
+
+* See the file for training :  Combined_Patch_Word/Ablation_Study/Font_Recognition_Multiple_2/**train_network_concat_equal.py**
+
+* Have a look at the code: Combined_Patch_Word/Ablation_Study/Font_Recognition_Multiple_2/ **"multi_image_data_loader_new.py"** and see how the dataloader is written.
+
+* Have a look at the code: Combined_Patch_Word/Ablation_Study/Font_Recognition_Multiple_2/**"trainer.py"** and see that we are using only "inputs_2" in line 134 i.e. we are giving only patch image as both the inputs
+
+
+**Giving word and patch images as the input to the network but different dataloader code**
+
+Here, we have used the word and patch images as the input to the network. But, we tried different way of writing the dataloader so verify whether there are any issue with the dataloader. 
+
+* See the file for training :  Combined_Patch_Word/Ablation_Study/Font_Recognition_Multiple_3/**train_network_concat_equal.py**
+
+* Have a look at the code: Combined_Patch_Word/Ablation_Study/Font_Recognition_Multiple_3/ **"multi_image_data_loader_new.py"** and see how the dataloader is written.
+
+* Have a look at the code: Combined_Patch_Word/Ablation_Study/Font_Recognition_Multiple_3/**"trainer.py"** and see that we are using "inputs_1"  in line 134 i.e. we are giving only word image as both the inputs
+
