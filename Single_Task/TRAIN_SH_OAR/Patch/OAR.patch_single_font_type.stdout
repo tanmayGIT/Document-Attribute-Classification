@@ -1,0 +1,78 @@
+mountimg: Waiting for process with pid 7614 to finish
+Hi, I am here dear available : 
+{'resume': 'janinah', 'debug': False, 'model': 'resnet', 'taskname': 'font_type', 'batch_size': 500, 'number_of_class': 6}
+The cuda is available :  True
+The number of classes are 6 and the batch size is 500
+Training path exists
+Validation path exists
+Im am inside WordImageDS single word image
+Image file path is in single word image : /data/zenith/user/tmondal/Font_Data/Train_Data_Patch/
+Im am inside WordImageDS single word image
+Image file path is in single word image : /data/zenith/user/tmondal/Font_Data/Validation_Data_Patch/
+The size of train dataset: 7261574
+The size of validation dataset: 1309966
+(tensor([[[ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         [ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         [ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         ...,
+         [-1.5870, -1.7754,  0.2282,  ...,  2.2318,  2.2318,  2.2318],
+         [-1.4158, -1.6727,  0.1083,  ...,  2.2318,  2.2318,  2.2318],
+         [-0.1657, -0.6965,  0.6049,  ...,  2.2318,  2.2318,  2.2318]],
+
+        [[ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         [ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         [ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         ...,
+         [-1.4930, -1.6856,  0.3627,  ...,  2.4111,  2.4111,  2.4111],
+         [-1.3179, -1.5805,  0.2402,  ...,  2.4111,  2.4111,  2.4111],
+         [-0.0399, -0.5826,  0.7479,  ...,  2.4111,  2.4111,  2.4111]],
+
+        [[ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         [ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         [ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         ...,
+         [-1.2641, -1.4559,  0.5834,  ...,  2.6226,  2.6226,  2.6226],
+         [-1.0898, -1.3513,  0.4614,  ...,  2.6226,  2.6226,  2.6226],
+         [ 0.1825, -0.3578,  0.9668,  ...,  2.6226,  2.6226,  2.6226]]]), tensor([1, 0, 0]), tensor([1, 0, 0]), tensor([1, 0, 0, 0, 0, 0]), tensor([1, 0, 0, 0]), tensor([1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]))
+Let's use 2 GPUs!
+model and cuda mixing done
+I am inside right trainer and task name is :  font_type
+Epoch 0/89
+----------
+train total loss: 1.1367
+train mean_loss of all the batches: 1.1367
+train variable_Acc: 0.9060
+val total loss: 1.1648
+val mean_loss of all the batches: 1.1653
+val variable_Acc: 0.8766
+saving with loss of 1.1648403424094207 improved over previous 0.0
+Saving Model...
+
+Epoch 1/89
+----------
+train total loss: 1.1086
+train mean_loss of all the batches: 1.1086
+train variable_Acc: 0.9344
+val total loss: 1.1484
+val mean_loss of all the batches: 1.1488
+val variable_Acc: 0.8933
+
+Epoch 2/89
+----------
+train total loss: 1.1009
+train mean_loss of all the batches: 1.1009
+train variable_Acc: 0.9422
+val total loss: 1.1413
+val mean_loss of all the batches: 1.1417
+val variable_Acc: 0.9004
+
+Epoch 3/89
+----------

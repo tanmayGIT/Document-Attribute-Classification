@@ -1,0 +1,103 @@
+Hi, I am here dear available : 
+{'resume': 'janinah', 'debug': False, 'model': 'resnet', 'taskname': 'scanning', 'batch_size': 500, 'number_of_class': 3}
+The cuda is available :  True
+The number of classes are 3 and the batch size is 500
+Training path exists
+Validation path exists
+Im am inside WordImageDS single word image
+Image file path is in single word image : /data/zenith/user/tmondal/Font_Data/Train_Data_Patch/
+Im am inside WordImageDS single word image
+Image file path is in single word image : /data/zenith/user/tmondal/Font_Data/Validation_Data_Patch/
+The size of train dataset: 7261574
+The size of validation dataset: 1309966
+(tensor([[[ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         [ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         [ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         ...,
+         [-1.5870, -1.7754,  0.2282,  ...,  2.2318,  2.2318,  2.2318],
+         [-1.4158, -1.6727,  0.1083,  ...,  2.2318,  2.2318,  2.2318],
+         [-0.1657, -0.6965,  0.6049,  ...,  2.2318,  2.2318,  2.2318]],
+
+        [[ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         [ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         [ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         ...,
+         [-1.4930, -1.6856,  0.3627,  ...,  2.4111,  2.4111,  2.4111],
+         [-1.3179, -1.5805,  0.2402,  ...,  2.4111,  2.4111,  2.4111],
+         [-0.0399, -0.5826,  0.7479,  ...,  2.4111,  2.4111,  2.4111]],
+
+        [[ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         [ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         [ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         ...,
+         [-1.2641, -1.4559,  0.5834,  ...,  2.6226,  2.6226,  2.6226],
+         [-1.0898, -1.3513,  0.4614,  ...,  2.6226,  2.6226,  2.6226],
+         [ 0.1825, -0.3578,  0.9668,  ...,  2.6226,  2.6226,  2.6226]]]), tensor([1, 0, 0]), tensor([1, 0, 0]), tensor([1, 0, 0, 0, 0, 0]), tensor([1, 0, 0, 0]), tensor([1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]))
+Let's use 2 GPUs!
+model and cuda mixing done
+I am inside right trainer and task name is :  scanning
+Epoch 0/89
+----------
+train total loss: 0.5525
+train mean_loss of all the batches: 0.5525
+train variable_Acc: 0.9989
+val total loss: 0.5521
+val mean_loss of all the batches: 0.5523
+val variable_Acc: 0.9988
+saving with loss of 0.5521212049080324 improved over previous 0.0
+Saving Model...
+
+Epoch 1/89
+----------
+train total loss: 0.5519
+train mean_loss of all the batches: 0.5519
+train variable_Acc: 0.9995
+val total loss: 0.5519
+val mean_loss of all the batches: 0.5521
+val variable_Acc: 0.9990
+saving with loss of 0.5518670022680837 improved over previous 0.5521212049080324
+Saving Model...
+
+Epoch 2/89
+----------
+train total loss: 0.5518
+train mean_loss of all the batches: 0.5518
+train variable_Acc: 0.9997
+val total loss: 0.5523
+val mean_loss of all the batches: 0.5525
+val variable_Acc: 0.9985
+saving with loss of 0.5523281019128704 improved over previous 0.5518670022680837
+Saving Model...
+
+Epoch 3/89
+----------
+train total loss: 0.5517
+train mean_loss of all the batches: 0.5517
+train variable_Acc: 0.9997
+val total loss: 0.5518
+val mean_loss of all the batches: 0.5520
+val variable_Acc: 0.9991
+saving with loss of 0.551783840482791 improved over previous 0.5523281019128704
+Saving Model...
+
+Epoch 4/89
+----------
+train total loss: 0.5517
+train mean_loss of all the batches: 0.5517
+train variable_Acc: 0.9997
+val total loss: 0.5517
+val mean_loss of all the batches: 0.5519
+val variable_Acc: 0.9992
+saving with loss of 0.5516675703472577 improved over previous 0.551783840482791
+Saving Model...
+
+Epoch 5/89
+----------

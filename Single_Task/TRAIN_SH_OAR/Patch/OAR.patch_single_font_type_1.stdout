@@ -1,0 +1,251 @@
+mountimg: Waiting for process with pid 151431 to finish
+Hi, I am here dear available : 
+{'resume': 'janinah', 'debug': False, 'model': 'resnet', 'taskname': 'font_type', 'batch_size': 500, 'number_of_class': 6, 'epoch_num_to_load': '0'}
+The cuda is available :  True
+The number of classes are 6 and the batch size is 500
+Training path exists
+Validation path exists
+Im am inside WordImageDS single word image
+Image file path is in single word image : /data/zenith/user/tmondal/Font_Data/Train_Data_Patch/
+Im am inside WordImageDS single word image
+Image file path is in single word image : /data/zenith/user/tmondal/Font_Data/Validation_Data_Patch/
+The size of train dataset: 7261574
+The size of validation dataset: 1309966
+(tensor([[[ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         [ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         [ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         ...,
+         [-1.5870, -1.7754,  0.2282,  ...,  2.2318,  2.2318,  2.2318],
+         [-1.4158, -1.6727,  0.1083,  ...,  2.2318,  2.2318,  2.2318],
+         [-0.1657, -0.6965,  0.6049,  ...,  2.2318,  2.2318,  2.2318]],
+
+        [[ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         [ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         [ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         ...,
+         [-1.4930, -1.6856,  0.3627,  ...,  2.4111,  2.4111,  2.4111],
+         [-1.3179, -1.5805,  0.2402,  ...,  2.4111,  2.4111,  2.4111],
+         [-0.0399, -0.5826,  0.7479,  ...,  2.4111,  2.4111,  2.4111]],
+
+        [[ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         [ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         [ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         ...,
+         [-1.2641, -1.4559,  0.5834,  ...,  2.6226,  2.6226,  2.6226],
+         [-1.0898, -1.3513,  0.4614,  ...,  2.6226,  2.6226,  2.6226],
+         [ 0.1825, -0.3578,  0.9668,  ...,  2.6226,  2.6226,  2.6226]]]), tensor([1, 0, 0]), tensor([1, 0, 0]), tensor([1, 0, 0, 0, 0, 0]), tensor([1, 0, 0, 0]), tensor([1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]))
+Let's use 2 GPUs!
+model and cuda mixing done
+I am inside right trainer and task name is :  font_type
+Epoch 0/89
+----------
+train total loss: 1.1367
+train mean_loss of all the batches: 1.1367
+train variable_Acc: 0.9059
+0.9059 variable_Acc and best accuracy: 0.0000
+val total loss: 1.1640
+val mean_loss of all the batches: 1.1644
+val variable_Acc: 0.8776
+0.8776 variable_Acc and best accuracy: 0.0000
+saving with loss of 1.1640085252170078 improved over previous 0.0
+Saving Model...
+
+Epoch 1/89
+----------
+train total loss: 1.1083
+train mean_loss of all the batches: 1.1083
+train variable_Acc: 0.9347
+0.9347 variable_Acc and best accuracy: 0.8776
+val total loss: 1.1454
+val mean_loss of all the batches: 1.1458
+val variable_Acc: 0.8963
+0.8963 variable_Acc and best accuracy: 0.8776
+saving with loss of 1.145394514719952 improved over previous 0.8775678277015686
+Saving Model...
+
+Epoch 2/89
+----------
+train total loss: 1.1006
+train mean_loss of all the batches: 1.1006
+train variable_Acc: 0.9425
+0.9425 variable_Acc and best accuracy: 0.8963
+val total loss: 1.1481
+val mean_loss of all the batches: 1.1485
+val variable_Acc: 0.8935
+0.8935 variable_Acc and best accuracy: 0.8963
+
+Epoch 3/89
+----------
+train total loss: 1.0960
+train mean_loss of all the batches: 1.0960
+train variable_Acc: 0.9471
+0.9471 variable_Acc and best accuracy: 0.8963
+val total loss: 1.1371
+val mean_loss of all the batches: 1.1375
+val variable_Acc: 0.9048
+0.9048 variable_Acc and best accuracy: 0.8963
+saving with loss of 1.137096727021399 improved over previous 0.8962705731391907
+Saving Model...
+
+Epoch 4/89
+----------
+train total loss: 1.0930
+train mean_loss of all the batches: 1.0930
+train variable_Acc: 0.9501
+0.9501 variable_Acc and best accuracy: 0.9048
+val total loss: 1.1282
+val mean_loss of all the batches: 1.1286
+val variable_Acc: 0.9138
+0.9138 variable_Acc and best accuracy: 0.9048
+saving with loss of 1.1281966845489588 improved over previous 0.9048120379447937
+Saving Model...
+
+Epoch 5/89
+----------
+train total loss: 1.0906
+train mean_loss of all the batches: 1.0906
+train variable_Acc: 0.9526
+0.9526 variable_Acc and best accuracy: 0.9138
+val total loss: 1.1257
+val mean_loss of all the batches: 1.1261
+val variable_Acc: 0.9162
+0.9162 variable_Acc and best accuracy: 0.9138
+saving with loss of 1.1257364198262698 improved over previous 0.9137732982635498
+Saving Model...
+
+Epoch 6/89
+----------
+train total loss: 1.0887
+train mean_loss of all the batches: 1.0887
+train variable_Acc: 0.9546
+0.9546 variable_Acc and best accuracy: 0.9162
+val total loss: 1.1220
+val mean_loss of all the batches: 1.1224
+val variable_Acc: 0.9200
+0.9200 variable_Acc and best accuracy: 0.9162
+saving with loss of 1.122015784725887 improved over previous 0.916164219379425
+Saving Model...
+
+Epoch 7/89
+----------
+train total loss: 1.0873
+train mean_loss of all the batches: 1.0873
+train variable_Acc: 0.9560
+0.9560 variable_Acc and best accuracy: 0.9200
+val total loss: 1.1228
+val mean_loss of all the batches: 1.1232
+val variable_Acc: 0.9193
+0.9193 variable_Acc and best accuracy: 0.9200
+
+Epoch 8/89
+----------
+train total loss: 1.0860
+train mean_loss of all the batches: 1.0860
+train variable_Acc: 0.9573
+0.9573 variable_Acc and best accuracy: 0.9200
+val total loss: 1.1203
+val mean_loss of all the batches: 1.1207
+val variable_Acc: 0.9218
+0.9218 variable_Acc and best accuracy: 0.9200
+saving with loss of 1.1203362404019472 improved over previous 0.9200490713119507
+Saving Model...
+
+Epoch 9/89
+----------
+train total loss: 1.0784
+train mean_loss of all the batches: 1.0784
+train variable_Acc: 0.9650
+0.9650 variable_Acc and best accuracy: 0.9218
+val total loss: 1.1079
+val mean_loss of all the batches: 1.1083
+val variable_Acc: 0.9342
+0.9342 variable_Acc and best accuracy: 0.9218
+saving with loss of 1.1079480257941452 improved over previous 0.9217697381973267
+Saving Model...
+
+Epoch 10/89
+----------
+train total loss: 1.0769
+train mean_loss of all the batches: 1.0769
+train variable_Acc: 0.9665
+0.9665 variable_Acc and best accuracy: 0.9342
+val total loss: 1.1064
+val mean_loss of all the batches: 1.1068
+val variable_Acc: 0.9358
+0.9358 variable_Acc and best accuracy: 0.9342
+saving with loss of 1.106424411586477 improved over previous 0.9342402815818787
+Saving Model...
+
+Epoch 11/89
+----------
+train total loss: 1.0763
+train mean_loss of all the batches: 1.0764
+train variable_Acc: 0.9671
+0.9671 variable_Acc and best accuracy: 0.9358
+val total loss: 1.1071
+val mean_loss of all the batches: 1.1075
+val variable_Acc: 0.9351
+0.9351 variable_Acc and best accuracy: 0.9358
+
+Epoch 12/89
+----------
+train total loss: 1.0759
+train mean_loss of all the batches: 1.0759
+train variable_Acc: 0.9676
+0.9676 variable_Acc and best accuracy: 0.9358
+val total loss: 1.1065
+val mean_loss of all the batches: 1.1069
+val variable_Acc: 0.9359
+0.9359 variable_Acc and best accuracy: 0.9358
+saving with loss of 1.1064686477529648 improved over previous 0.9358189105987549
+Saving Model...
+
+Epoch 13/89
+----------
+train total loss: 1.0757
+train mean_loss of all the batches: 1.0757
+train variable_Acc: 0.9678
+0.9678 variable_Acc and best accuracy: 0.9359
+val total loss: 1.1058
+val mean_loss of all the batches: 1.1062
+val variable_Acc: 0.9365
+0.9365 variable_Acc and best accuracy: 0.9359
+saving with loss of 1.1058047839737255 improved over previous 0.9358639717102051
+Saving Model...
+
+Epoch 14/89
+----------
+train total loss: 1.0753
+train mean_loss of all the batches: 1.0753
+train variable_Acc: 0.9682
+0.9682 variable_Acc and best accuracy: 0.9365
+val total loss: 1.1055
+val mean_loss of all the batches: 1.1059
+val variable_Acc: 0.9366
+0.9366 variable_Acc and best accuracy: 0.9365
+saving with loss of 1.1055434578705954 improved over previous 0.9365151524543762
+Saving Model...
+
+Epoch 15/89
+----------
+train total loss: 1.0751
+train mean_loss of all the batches: 1.0751
+train variable_Acc: 0.9684
+0.9684 variable_Acc and best accuracy: 0.9366
+val total loss: 1.1048
+val mean_loss of all the batches: 1.1052
+val variable_Acc: 0.9375
+0.9375 variable_Acc and best accuracy: 0.9366
+saving with loss of 1.104804173239341 improved over previous 0.9366166591644287
+Saving Model...
+
+Epoch 16/89
+----------

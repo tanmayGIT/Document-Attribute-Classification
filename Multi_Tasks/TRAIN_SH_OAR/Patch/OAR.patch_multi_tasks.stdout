@@ -1,0 +1,227 @@
+Training path exists
+Validation path exists
+entering in wordimageds
+Im am inside WordImageDS
+Image file path is : /data/zenith/user/tmondal/Font_Data/Train_Data_Patch/
+exit from wordimageds
+Im am inside WordImageDS
+Image file path is : /data/zenith/user/tmondal/Font_Data/Validation_Data_Patch/
+The size of train dataset: 7261574
+The size of validation dataset: 1309966
+(tensor([[[ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         [ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         [ 2.2489,  2.2489,  2.2489,  ...,  2.2489,  2.2489,  2.2489],
+         ...,
+         [-1.5870, -1.7754,  0.2282,  ...,  2.2318,  2.2318,  2.2318],
+         [-1.4158, -1.6727,  0.1083,  ...,  2.2318,  2.2318,  2.2318],
+         [-0.1657, -0.6965,  0.6049,  ...,  2.2318,  2.2318,  2.2318]],
+
+        [[ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         [ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         [ 2.4286,  2.4286,  2.4286,  ...,  2.4286,  2.4286,  2.4286],
+         ...,
+         [-1.4930, -1.6856,  0.3627,  ...,  2.4111,  2.4111,  2.4111],
+         [-1.3179, -1.5805,  0.2402,  ...,  2.4111,  2.4111,  2.4111],
+         [-0.0399, -0.5826,  0.7479,  ...,  2.4111,  2.4111,  2.4111]],
+
+        [[ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         [ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         [ 2.6400,  2.6400,  2.6400,  ...,  2.6400,  2.6400,  2.6400],
+         ...,
+         [-1.2641, -1.4559,  0.5834,  ...,  2.6226,  2.6226,  2.6226],
+         [-1.0898, -1.3513,  0.4614,  ...,  2.6226,  2.6226,  2.6226],
+         [ 0.1825, -0.3578,  0.9668,  ...,  2.6226,  2.6226,  2.6226]]]), tensor([1, 0, 0]), tensor([1, 0, 0]), tensor([1, 0, 0, 0, 0, 0]), tensor([1, 0, 0, 0]))
+Let's use 2 GPUs!
+model and cuda mixing done
+Epoch 0/89
+----------
+train total loss: 3.0470 scanning loss: 0.5525 font size loss: 0.6062 font type loss: 1.1230  font emphasis loss 0.7653
+train mean_loss of all the batches: 3.0470
+train scanning_Acc: 0.9992  font size_acc: 0.9452  font type_acc: 0.9217font emphasis_acc: 0.9790
+The epoch_loss is : 3.046978216683587
+The current best accuracy is :  100.0
+val total loss: 3.1933 scanning loss: 0.5524 font size loss: 0.6255 font type loss: 1.1638  font emphasis loss 0.7705
+val mean_loss of all the batches: 3.1933
+val scanning_Acc: 0.9991  font size_acc: 0.9243  font type_acc: 0.8786font emphasis_acc: 0.9728
+The epoch_loss is : 3.1932711601257324
+The current best accuracy is :  100.0
+saving with loss of 3.1932711601257324 improved over previous 100.0
+Saving Model...
+
+Epoch 1/89
+----------
+train total loss: 2.9950 scanning loss: 0.5518 font size loss: 0.5844 font type loss: 1.1000  font emphasis loss 0.7588
+train mean_loss of all the batches: 2.9950
+train scanning_Acc: 0.9997  font size_acc: 0.9664  font type_acc: 0.9434font emphasis_acc: 0.9848
+The epoch_loss is : 2.9949980975501838
+The current best accuracy is :  3.1932711601257324
+val total loss: 3.0166 scanning loss: 0.5527 font size loss: 0.6319 font type loss: 1.1598  font emphasis loss 0.7708
+val mean_loss of all the batches: 3.0166
+val scanning_Acc: 0.9987  font size_acc: 0.9173  font type_acc: 0.8825font emphasis_acc: 0.9724
+The epoch_loss is : 3.016632080078125
+The current best accuracy is :  3.1932711601257324
+saving with loss of 3.016632080078125 improved over previous 3.1932711601257324
+Saving Model...
+
+Epoch 2/89
+----------
+train total loss: 2.9820 scanning loss: 0.5517 font size loss: 0.5795 font type loss: 1.0937  font emphasis loss 0.7571
+train mean_loss of all the batches: 2.9820
+train scanning_Acc: 0.9997  font size_acc: 0.9714  font type_acc: 0.9497font emphasis_acc: 0.9865
+The epoch_loss is : 2.9820012126603124
+The current best accuracy is :  3.016632080078125
+val total loss: 3.1263 scanning loss: 0.5518 font size loss: 0.6025 font type loss: 1.1355  font emphasis loss 0.7723
+val mean_loss of all the batches: 3.1263
+val scanning_Acc: 0.9996  font size_acc: 0.9477  font type_acc: 0.9072font emphasis_acc: 0.9710
+The epoch_loss is : 3.126300811767578
+The current best accuracy is :  3.016632080078125
+
+Epoch 3/89
+----------
+train total loss: 2.9750 scanning loss: 0.5517 font size loss: 0.5769 font type loss: 1.0902  font emphasis loss 0.7562
+train mean_loss of all the batches: 2.9750
+train scanning_Acc: 0.9998  font size_acc: 0.9740  font type_acc: 0.9532font emphasis_acc: 0.9874
+The epoch_loss is : 2.9749588164335274
+The current best accuracy is :  3.016632080078125
+val total loss: 2.9630 scanning loss: 0.5520 font size loss: 0.5980 font type loss: 1.1265  font emphasis loss 0.7633
+val mean_loss of all the batches: 2.9630
+val scanning_Acc: 0.9995  font size_acc: 0.9523  font type_acc: 0.9163font emphasis_acc: 0.9801
+The epoch_loss is : 2.962972640991211
+The current best accuracy is :  3.016632080078125
+saving with loss of 2.962972640991211 improved over previous 3.016632080078125
+Saving Model...
+
+Epoch 4/89
+----------
+train total loss: 2.9698 scanning loss: 0.5516 font size loss: 0.5752 font type loss: 1.0875  font emphasis loss 0.7555
+train mean_loss of all the batches: 2.9698
+train scanning_Acc: 0.9998  font size_acc: 0.9758  font type_acc: 0.9559font emphasis_acc: 0.9880
+The epoch_loss is : 2.9697914810750214
+The current best accuracy is :  2.962972640991211
+val total loss: 3.0399 scanning loss: 0.5518 font size loss: 0.6116 font type loss: 1.1244  font emphasis loss 0.7618
+val mean_loss of all the batches: 3.0399
+val scanning_Acc: 0.9997  font size_acc: 0.9384  font type_acc: 0.9185font emphasis_acc: 0.9817
+The epoch_loss is : 3.0399060249328613
+The current best accuracy is :  2.962972640991211
+
+Epoch 5/89
+----------
+train total loss: 2.9660 scanning loss: 0.5516 font size loss: 0.5738 font type loss: 1.0855  font emphasis loss 0.7550
+train mean_loss of all the batches: 2.9660
+train scanning_Acc: 0.9998  font size_acc: 0.9772  font type_acc: 0.9578font emphasis_acc: 0.9885
+The epoch_loss is : 2.965991041390565
+The current best accuracy is :  2.962972640991211
+val total loss: 3.0820 scanning loss: 0.5516 font size loss: 0.5949 font type loss: 1.1233  font emphasis loss 0.7619
+val mean_loss of all the batches: 3.0820
+val scanning_Acc: 0.9998  font size_acc: 0.9555  font type_acc: 0.9196font emphasis_acc: 0.9815
+The epoch_loss is : 3.082005262374878
+The current best accuracy is :  2.962972640991211
+
+Epoch 6/89
+----------
+train total loss: 2.9629 scanning loss: 0.5516 font size loss: 0.5728 font type loss: 1.0839  font emphasis loss 0.7546
+train mean_loss of all the batches: 2.9629
+train scanning_Acc: 0.9999  font size_acc: 0.9782  font type_acc: 0.9594font emphasis_acc: 0.9889
+The epoch_loss is : 2.962932738310867
+The current best accuracy is :  2.962972640991211
+val total loss: 3.0120 scanning loss: 0.5518 font size loss: 0.6100 font type loss: 1.1322  font emphasis loss 0.7668
+val mean_loss of all the batches: 3.0120
+val scanning_Acc: 0.9996  font size_acc: 0.9400  font type_acc: 0.9105font emphasis_acc: 0.9765
+The epoch_loss is : 3.011953592300415
+The current best accuracy is :  2.962972640991211
+
+Epoch 7/89
+----------
+train total loss: 2.9604 scanning loss: 0.5516 font size loss: 0.5719 font type loss: 1.0826  font emphasis loss 0.7543
+train mean_loss of all the batches: 2.9604
+train scanning_Acc: 0.9999  font size_acc: 0.9791  font type_acc: 0.9607font emphasis_acc: 0.9893
+The epoch_loss is : 2.960439755282134
+The current best accuracy is :  2.962972640991211
+val total loss: 3.0101 scanning loss: 0.5516 font size loss: 0.5914 font type loss: 1.1183  font emphasis loss 0.7630
+val mean_loss of all the batches: 3.0101
+val scanning_Acc: 0.9998  font size_acc: 0.9591  font type_acc: 0.9246font emphasis_acc: 0.9803
+The epoch_loss is : 3.010134696960449
+The current best accuracy is :  2.962972640991211
+
+Epoch 8/89
+----------
+train total loss: 2.9585 scanning loss: 0.5516 font size loss: 0.5712 font type loss: 1.0817  font emphasis loss 0.7540
+train mean_loss of all the batches: 2.9585
+train scanning_Acc: 0.9999  font size_acc: 0.9799  font type_acc: 0.9616font emphasis_acc: 0.9895
+The epoch_loss is : 2.9584906733965504
+The current best accuracy is :  2.962972640991211
+val total loss: 3.0373 scanning loss: 0.5516 font size loss: 0.5895 font type loss: 1.1172  font emphasis loss 0.7615
+val mean_loss of all the batches: 3.0373
+val scanning_Acc: 0.9998  font size_acc: 0.9609  font type_acc: 0.9257font emphasis_acc: 0.9819
+The epoch_loss is : 3.0372884273529053
+The current best accuracy is :  2.962972640991211
+
+Epoch 9/89
+----------
+train total loss: 2.9441 scanning loss: 0.5515 font size loss: 0.5662 font type loss: 1.0744  font emphasis loss 0.7519
+train mean_loss of all the batches: 2.9441
+train scanning_Acc: 0.9999  font size_acc: 0.9850  font type_acc: 0.9691font emphasis_acc: 0.9916
+The epoch_loss is : 2.944126139411396
+The current best accuracy is :  2.962972640991211
+val total loss: 3.0250 scanning loss: 0.5516 font size loss: 0.5818 font type loss: 1.1024  font emphasis loss 0.7580
+val mean_loss of all the batches: 3.0250
+val scanning_Acc: 0.9998  font size_acc: 0.9690  font type_acc: 0.9407font emphasis_acc: 0.9855
+The epoch_loss is : 3.024998426437378
+The current best accuracy is :  2.962972640991211
+
+Epoch 10/89
+----------
+train total loss: 2.9418 scanning loss: 0.5515 font size loss: 0.5655 font type loss: 1.0732  font emphasis loss 0.7517
+train mean_loss of all the batches: 2.9418
+train scanning_Acc: 0.9999  font size_acc: 0.9857  font type_acc: 0.9703font emphasis_acc: 0.9919
+The epoch_loss is : 2.941837161667698
+The current best accuracy is :  2.962972640991211
+val total loss: 3.0269 scanning loss: 0.5516 font size loss: 0.5803 font type loss: 1.1030  font emphasis loss 0.7581
+val mean_loss of all the batches: 3.0269
+val scanning_Acc: 0.9999  font size_acc: 0.9705  font type_acc: 0.9402font emphasis_acc: 0.9854
+The epoch_loss is : 3.026883840560913
+The current best accuracy is :  2.962972640991211
+
+Epoch 11/89
+----------
+train total loss: 2.9408 scanning loss: 0.5515 font size loss: 0.5651 font type loss: 1.0726  font emphasis loss 0.7516
+train mean_loss of all the batches: 2.9408
+train scanning_Acc: 0.9999  font size_acc: 0.9861  font type_acc: 0.9709font emphasis_acc: 0.9920
+The epoch_loss is : 2.9408263263222976
+The current best accuracy is :  2.962972640991211
+val total loss: 3.0430 scanning loss: 0.5516 font size loss: 0.5809 font type loss: 1.1016  font emphasis loss 0.7581
+val mean_loss of all the batches: 3.0430
+val scanning_Acc: 0.9999  font size_acc: 0.9698  font type_acc: 0.9415font emphasis_acc: 0.9854
+The epoch_loss is : 3.0429797172546387
+The current best accuracy is :  2.962972640991211
+
+Epoch 12/89
+----------
+train total loss: 2.9402 scanning loss: 0.5515 font size loss: 0.5650 font type loss: 1.0723  font emphasis loss 0.7514
+train mean_loss of all the batches: 2.9402
+train scanning_Acc: 0.9999  font size_acc: 0.9862  font type_acc: 0.9712font emphasis_acc: 0.9922
+The epoch_loss is : 2.9402107280657623
+The current best accuracy is :  2.962972640991211
+val total loss: 2.9353 scanning loss: 0.5516 font size loss: 0.5793 font type loss: 1.1008  font emphasis loss 0.7576
+val mean_loss of all the batches: 2.9353
+val scanning_Acc: 0.9999  font size_acc: 0.9715  font type_acc: 0.9423font emphasis_acc: 0.9859
+The epoch_loss is : 2.93530535697937
+The current best accuracy is :  2.962972640991211
+saving with loss of 2.93530535697937 improved over previous 2.962972640991211
+Saving Model...
+
+Epoch 13/89
+----------
+train total loss: 2.9397 scanning loss: 0.5515 font size loss: 0.5648 font type loss: 1.0720  font emphasis loss 0.7514
+train mean_loss of all the batches: 2.9397
+train scanning_Acc: 0.9999  font size_acc: 0.9865  font type_acc: 0.9715font emphasis_acc: 0.9922
+The epoch_loss is : 2.9397083897532954
+The current best accuracy is :  2.93530535697937
+val total loss: 3.0955 scanning loss: 0.5516 font size loss: 0.5795 font type loss: 1.1013  font emphasis loss 0.7581
+val mean_loss of all the batches: 3.0955
+val scanning_Acc: 0.9999  font size_acc: 0.9713  font type_acc: 0.9418font emphasis_acc: 0.9854
+The epoch_loss is : 3.095529079437256
+The current best accuracy is :  2.93530535697937
+
+Epoch 14/89
+----------

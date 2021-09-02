@@ -1,0 +1,7 @@
+mountimg: Waiting for process with pid 130620 to finish
+Im am inside WordImageDS single word image
+Image file path is in single word image : /data/zenith/user/tmondal/Font_Data/Test_Data_Patch/
+Total number of test images : 132458
+Let's use 2 GPUs!
+model and cuda mixing done
+Testing Accuracy Font Size : 0.966155

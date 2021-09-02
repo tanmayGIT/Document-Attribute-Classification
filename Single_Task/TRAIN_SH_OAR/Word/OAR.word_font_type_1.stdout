@@ -1,0 +1,134 @@
+Hi, I am here dear available : 
+{'resume': 'janinah', 'debug': False, 'model': 'resnet', 'taskname': 'font_type', 'batch_size': 800, 'number_of_class': 6}
+The cuda is available :  True
+The number of classes are 6 and the batch size is 800
+Training path exists
+Validation path exists
+Im am inside WordImageDS single word image
+Image file path is in single word image : /data/zenith/user/tmondal/Font_Data/Train_Data_Server/
+Im am inside WordImageDS single word image
+Image file path is in single word image : /data/zenith/user/tmondal/Font_Data/Validation_Data_Server/
+The size of train dataset: 8099561
+The size of validation dataset: 1344016
+(tensor([[[ 1.9235,  1.9407,  2.0092,  ...,  1.5982,  1.7523,  1.8037],
+         [ 1.9235,  1.9407,  2.0092,  ...,  1.5982,  1.7523,  1.8037],
+         [ 1.9235,  1.9407,  2.0092,  ...,  1.5982,  1.7523,  1.8037],
+         ...,
+         [ 0.3652,  0.0569, -0.7308,  ..., -1.4329, -1.5014, -1.5357],
+         [ 0.3652,  0.0569, -0.7308,  ..., -1.4329, -1.5014, -1.5357],
+         [ 0.3652,  0.0569, -0.7308,  ..., -1.4329, -1.5014, -1.5357]],
+
+        [[ 2.0959,  2.1134,  2.1835,  ...,  1.7633,  1.9209,  1.9734],
+         [ 2.0959,  2.1134,  2.1835,  ...,  1.7633,  1.9209,  1.9734],
+         [ 2.0959,  2.1134,  2.1835,  ...,  1.7633,  1.9209,  1.9734],
+         ...,
+         [ 0.5028,  0.1877, -0.6176,  ..., -1.3354, -1.4055, -1.4405],
+         [ 0.5028,  0.1877, -0.6176,  ..., -1.3354, -1.4055, -1.4405],
+         [ 0.5028,  0.1877, -0.6176,  ..., -1.3354, -1.4055, -1.4405]],
+
+        [[ 2.3088,  2.3263,  2.3960,  ...,  1.9777,  2.1346,  2.1868],
+         [ 2.3088,  2.3263,  2.3960,  ...,  1.9777,  2.1346,  2.1868],
+         [ 2.3088,  2.3263,  2.3960,  ...,  1.9777,  2.1346,  2.1868],
+         ...,
+         [ 0.7228,  0.4091, -0.3927,  ..., -1.1073, -1.1770, -1.2119],
+         [ 0.7228,  0.4091, -0.3927,  ..., -1.1073, -1.1770, -1.2119],
+         [ 0.7228,  0.4091, -0.3927,  ..., -1.1073, -1.1770, -1.2119]]]), tensor([1, 0, 0]), tensor([1, 0, 0]), tensor([1, 0, 0, 0, 0, 0]), tensor([1, 0, 0, 0]), tensor([1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]))
+Let's use 2 GPUs!
+model and cuda mixing done
+I am inside right trainer and task name is :  font_type
+Epoch 0/89
+----------
+train total loss: 1.2571
+train mean_loss of all the batches: 1.2572
+train variable_Acc: 0.7837
+val total loss: 1.2937
+val mean_loss of all the batches: 1.2937
+val variable_Acc: 0.7462
+saving with loss of 1.2936538963013835 improved over previous 0.0
+Saving Model...
+
+Epoch 1/89
+----------
+train total loss: 1.1994
+train mean_loss of all the batches: 1.1994
+train variable_Acc: 0.8426
+val total loss: 1.2571
+val mean_loss of all the batches: 1.2571
+val variable_Acc: 0.7834
+saving with loss of 1.2571292661987323 improved over previous 0.7462261915206909
+Saving Model...
+
+Epoch 2/89
+----------
+train total loss: 1.1819
+train mean_loss of all the batches: 1.1819
+train variable_Acc: 0.8604
+val total loss: 1.2456
+val mean_loss of all the batches: 1.2456
+val variable_Acc: 0.7953
+saving with loss of 1.2456301479069622 improved over previous 0.783401370048523
+Saving Model...
+
+Epoch 3/89
+----------
+train total loss: 1.1711
+train mean_loss of all the batches: 1.1711
+train variable_Acc: 0.8713
+val total loss: 1.2378
+val mean_loss of all the batches: 1.2378
+val variable_Acc: 0.8031
+saving with loss of 1.237791569817258 improved over previous 0.7953238487243652
+Saving Model...
+
+Epoch 4/89
+----------
+train total loss: 1.1637
+train mean_loss of all the batches: 1.1638
+train variable_Acc: 0.8787
+val total loss: 1.2347
+val mean_loss of all the batches: 1.2347
+val variable_Acc: 0.8063
+saving with loss of 1.2346951860417708 improved over previous 0.8030908703804016
+Saving Model...
+
+Epoch 5/89
+----------
+train total loss: 1.1584
+train mean_loss of all the batches: 1.1585
+train variable_Acc: 0.8841
+val total loss: 1.2242
+val mean_loss of all the batches: 1.2243
+val variable_Acc: 0.8169
+saving with loss of 1.2242410259189151 improved over previous 0.8062716126441956
+Saving Model...
+
+Epoch 6/89
+----------
+train total loss: 1.1538
+train mean_loss of all the batches: 1.1539
+train variable_Acc: 0.8888
+val total loss: 1.2274
+val mean_loss of all the batches: 1.2274
+val variable_Acc: 0.8136
+
+Epoch 7/89
+----------
+train total loss: 1.1503
+train mean_loss of all the batches: 1.1503
+train variable_Acc: 0.8923
+val total loss: 1.2191
+val mean_loss of all the batches: 1.2191
+val variable_Acc: 0.8221
+saving with loss of 1.2191323784509969 improved over previous 0.8168659806251526
+Saving Model...
+
+Epoch 8/89
+----------
