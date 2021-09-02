@@ -2,8 +2,11 @@ clc;
 %close all;
 clear
 
-textFilePathSubSeq1 = '/home/tmondal/Documents/Project_Work/Python_Project/Font_Recognition/OAR.word_multitask_1_short.stdout';
-textFilePathSubSeq2 = '/home/tmondal/Documents/Project_Work/Python_Project/Font_Recognition/OAR.patch_multi_tasks.stdout';
+% here I am plotting the training and validatio accuracies of word and patch images
+% together  accuracy v/s no. of epochs
+
+textFilePathSubSeq1 = '/home/tmondal/Documents/Project_Work/Python_Project/Font_Recognition/Plots_Graphs/OAR.word_multitask_1_short.stdout';
+textFilePathSubSeq2 = '/home/tmondal/Documents/Project_Work/Python_Project/Font_Recognition/Plots_Graphs/OAR.patch_multi_tasks.stdout';
 
 [keepAllTrainAccuWord, keepAllValidAccuWord] = ReadFile_1(textFilePathSubSeq1);
 % [keepAllTrainAccuWord, keepAllValidAccuWord] = ReadFile_2(textFilePathSubSeq2);

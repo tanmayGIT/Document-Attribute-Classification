@@ -497,3 +497,25 @@ Here, we have used the word and patch images as the input to the network. But, w
 
 * Have a look at the code: Combined_Patch_Word/Ablation_Study/Font_Recognition_Multiple_3/**"trainer.py"** and see that we are using "inputs_1"  in line 134 i.e. we are giving only word image as both the inputs
 
+<br/>
+<br/>
+
+## Drawing the Plots 
+In the following section, we have mentioend the details of the code, used to draw the plots which are mentioend in the paper. The code is in MatLab
+
+* See the file for plotting the graph :  
+  * /Font_Recognition/Plots_Graphs/**read_plot_Graph_1.m** : Here we are plotting the training and validation accuracies of word and patch images together  
+    * The plot is shown in Figure. 6a and 6b
+
+  * /Font_Recognition/Plots_Graphs/**read_plot_Graph_2.m** : Here we are plotting only the training accuracies of word and patch images together
+     * The plot is shown in Figure. 5
+
+
+## Full page level accuracy 
+The full page level accuracies are mentioend in Table. 4 in the paper
+
+* Full page level accuracies using segmented words :  
+  * /Font_Recognition/Multi_Tasks/Word_Level/**test_word_page_level.py** 
+
+* Full page level accuracies using segmented patches :  
+  * /Font_Recognition/Multi_Tasks/Patch_Level/**test_word_page_level.py** 

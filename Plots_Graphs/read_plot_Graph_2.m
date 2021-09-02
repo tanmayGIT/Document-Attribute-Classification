@@ -3,10 +3,10 @@ clc;
 clear
 
 % here I am plotting the training accuracies of word and patch images
-% together
+% together  accuracy v/s no. of epochs
 
-textFilePathSubSeq1 = '/home/tmondal/Documents/Project_Work/Python_Project/Font_Recognition/OAR.word_multitask_1_short_plus.stdout';
-textFilePathSubSeq2 = '/home/tmondal/Documents/Project_Work/Python_Project/Font_Recognition/OAR.patch_multi_tasks.stdout';
+textFilePathSubSeq1 = '/home/tmondal/Documents/Project_Work/Python_Project/Font_Recognition/Plots_Graphs/OAR.word_multitask_1_short_plus.stdout';
+textFilePathSubSeq2 = '/home/tmondal/Documents/Project_Work/Python_Project/Font_Recognition/Plots_Graphs/OAR.patch_multi_tasks.stdout';
 
 [keepAllTrainAccuWord, keepAllValidAccuWord] = ReadFile_1(textFilePathSubSeq1);
 [keepAllTrainAccuPatch, keepAllValidAccuPatch] = ReadFile_2(textFilePathSubSeq2);
